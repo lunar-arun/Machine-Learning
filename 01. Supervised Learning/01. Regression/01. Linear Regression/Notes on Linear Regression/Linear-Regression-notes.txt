@@ -1,0 +1,54 @@
+Linear Regression : Predicting the continous values by understanding linear relationship between independent variable and dependent variable.
+
+Linear Regression -->(Parametric Model)
+Types : SIMPLE Linear Regression 
+        MULTIPLE Linear Regression
+        
+Simple Linear Regression : y = α + β x
+    α : intercept | β : Coefficent of Regression   (paramerters)
+    y --> variable(Dependent | Response | Outcome)
+    x --> variable(Independent | Predictor | Explanatory)                                          
+Multiple Linear Regression : y = α + Σ (β x)
+    Here y = α + β1 x1 + β2 x2 + β3 x3 ......
+    
+When we have parameters we always need to Optimize.
+    Types : OLS(Ordinal Least Square) | Gradiant Descent
+            aim: Least Error
+            
+Understanding y and ŷ:
+    y is dependent variable(actual) |ŷ is Predicted value variable
+    
+We know Error = Actural - (Observe | Predicted)
+    So => ε = y - ŷ
+    LOSS Function --> Says each record is loss function e1 = y1 - ŷ1(Residual)
+    COST Function --> Mean of LOSS function 
+    
+ASSUMPTION OF LINEAR REGRESSION:                                                     
+1. Linearity: All about linear association between dependent variable and each independent variables.
+
+Measure are Correlation (Pearson'r) & Covariance | Scatterplot | Regplot | Pairplot
+
+2.Normality : Reponse Variablie should be Normal Distributed  with Mean μ and Variance σ2.
+              Residual | Error should be Normal Distributed  with Mean μ = 0 and Variance σ2. 
+
+Measure : displot | kdeplot |andreson darling test | shapiro -wilk test | jarquebata test | omnibus  test | ks-kolmogoro smirnov test
+
+andreson darling test | shapiro -wilk test : fails we have to tranform the data to make it normal distributed.
+
+Transformation : BOX-COX | Yeo-Johnson(data point are -ve) | Log 
+
+3. No Multicollinearity: There should no correlation among independent variable. If we have multicollinearity then we get flase significance.
+
+Measure : Correlation | Variance Inflation Factor 
+
+4. Homoscedasticiy : Checks for Same Spreadness
+
+meaning: Variance of error | residual should be statistically equal to zero.
+
+Measure: Breusch Pogan test | Gold Teld Quandt test | NCV test(non-constant variance) | White test
+
+05. No Autocorrelation : No correlation on observation of Dependent Variable.
+
+Measure : Durbin Watson Test.
+    Ho is significant we use linear regression
+    Ha is significant then use Time series
