@@ -1,0 +1,37 @@
+A time series is simply a set of data points ordered in time, 
+
+the data is often equally spaced in time, meaning that equal intervals separate each data point.
+
+Keep in mind that the y-axis represents the value, while the x-axis still refers to time.
+
+Forecasting is predicting the future using historical data and knowledge of future events that might affect our forecasts.
+
+Forecasting relies on historical data and statistical models to make predictions about future trends, while prediction relies on incomplete or uncertain information to make judgments about future events.
+
+                                            Time Series Model
+                                               ⇙         ⇘ 
+                                Univariate Model           Multivariate Model        
+                                ⇙             ⇘                      ⇘ 
+                Elementary Model                Correlated Model        Vector Auto Regression
+                ⇙             ⇘                                ⇘
+Naive Forecasting              Moving Average                           ⇒ Moving Average(MA)                
+                               ⇙     ⇓     ⇘                           ⇒ ARMA (Autoregressive Moving Average)  
+                             ⇙       ⇓       ⇘                         ⇒ AR integrated MA (ARIMA) 
+                           ⇙         ⇓         ⇘                       ⇒ SARIMA (Seasonal ARIMA) 
+      Simple Moving Average      Smoothing       Weighted Moving Average        
+                                 Technique
+                                 ⇙       ⇘         
+               Simple Exponential          Double Exponential                    
+
+Four Components of Time Series:
+Trend : The slow-moving changes in a time series.
+        starts out flat and then steeply goes up, meaning that we have an increasing, or positive.
+
+Seasonal or Cyclic : a cycle that occurs over a fixed period of time.
+
+Irregular : Represent the behavior that cannot be explained by the trend and seasonality
+components.
+
+Naive Forecasting : Forecast for next period actual demand from the previous period 
+
+Moving Average : A time series which does'nt show any trend. To deal with random variation
