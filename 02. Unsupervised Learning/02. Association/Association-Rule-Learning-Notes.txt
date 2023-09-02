@@ -1,0 +1,11 @@
+Association rule learning is a technique that checks for the dependency of one data item on another data item and maps accordingly so that it can be more profitable.
+
+Association rule learning can be divided into three types of algorithms:
+    1.Apriori
+    2.Eclat
+    3.F-P Growth Algorithm
+    
+Metrics are given below:
+    1.Support
+    2.Confidence
+    3.Lift    
