@@ -1,2 +1,2 @@
 # Machine Learning
- Theory and Code of Machine learning algorithm concepts.
+ This repository consists the theory and code for Machine learning algorithm concepts.
