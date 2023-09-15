@@ -37,7 +37,7 @@ andreson darling test | shapiro -wilk test : fails we have to tranform the data 
 
 Transformation : BOX-COX | Yeo-Johnson(data point are -ve) | Log 
 
-3. No Multicollinearity: There should no correlation among independent variable. If we have multicollinearity then we get flase significance.
+3. No Multicollinearity: There should no correlation among independent variable. If we have multicollinearity then we get false significance.
 
 Measure : Correlation | Variance Inflation Factor 
 
