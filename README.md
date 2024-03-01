@@ -7,7 +7,7 @@ Welcome to the Machine Learning Projects repository! This collection showcases a
 ## Table of Contents
 
 1. [Supervised Learning](#supervised-learning)
-   - [Regression](#regression)
+   - [Regression](#01.-Regression)
      - [Linear Regression](#linear-regression)
      - [Decision Tree Regression](#decision-tree-regression)
      - [Random Forest Regression](#random-forest-regression)
