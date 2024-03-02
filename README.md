@@ -29,6 +29,6 @@ Welcome to the Machine Learning Projects repository! This collection showcases a
    2. [Classification](02.Classification)
 3. [Unsupervised Learning](02.UnsupervisedLearning)
 
-4. 1. [Regression](01.Regression)
-   1. [Linear Regression](01.Regression/01.LinearRegression)
-   2. [Decision Tree Regressor](01.Regression/02.DecisionTreeRegressor)
+1. [Regression](01.%20Supervised%20Learning/01.%20Regression)
+   1. [Linear Regression](01.%20Supervised%20Learning/01.%20Regression/01.%20LinearRegression)
+   2. [Decision Tree Regressor](01.%20Supervised%20Learning/01.%20Regression/02.%20DecisionTreeRegressor)
